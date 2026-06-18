@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="-Y2YIdNL05gLJzEmjBGh" name="ページ1">
-        <mxGraphModel dx="890" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+        <mxGraphModel dx="590" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -65,7 +65,7 @@
                     <mxGeometry y="146" width="250" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="itemsテーブル" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="710" y="90" width="245" height="196" as="geometry"/>
+                    <mxGeometry x="710" y="90" width="245" height="216" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="item_name&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: transparent;&quot;&gt;(string&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Hiragino Sans&amp;quot;;&quot; class=&quot;s1&quot;&gt;型&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: transparent;&quot;&gt;, NOT NULL)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-6;" parent="22" vertex="1">
                     <mxGeometry y="26" width="245" height="20" as="geometry"/>
@@ -85,11 +85,14 @@
                 <mxCell id="73" value="shiping_days (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" parent="22" vertex="1">
                     <mxGeometry y="126" width="245" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="price (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;spacingTop=-3;" parent="22" vertex="1">
+                <mxCell id="127" value="prefecture (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" vertex="1" parent="22">
                     <mxGeometry y="146" width="245" height="20" as="geometry"/>
                 </mxCell>
+                <mxCell id="76" value="price (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;spacingTop=-3;" parent="22" vertex="1">
+                    <mxGeometry y="166" width="245" height="20" as="geometry"/>
+                </mxCell>
                 <mxCell id="77" value="user (references型, NOTNULL, 外部キー)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;spacingTop=-3;" parent="22" vertex="1">
-                    <mxGeometry y="166" width="245" height="30" as="geometry"/>
+                    <mxGeometry y="186" width="245" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="123" value="" style="edgeStyle=segmentEdgeStyle;endArrow=ERone;html=1;curved=0;rounded=0;endSize=20;startSize=20;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.46;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endFill=0;" parent="1" source="82" target="16" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
