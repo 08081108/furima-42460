@@ -27,7 +27,7 @@
 | condition_id     | integer    | null: false                    |
 | shipping_fee_id  | integer    | null: false                    |
 | prefecture_id    | integer    | null: false                    |
-| shipping_days_id | integer    | null: false                    |
+| shipping_day_id  | integer    | null: false                    |
 | price            | integer    | null: false                    |
 | user             | references | null: false, foreign_key: true |
 
@@ -56,7 +56,7 @@
 | city          | string     | null: false                    |
 | house_number  | integer    | null: false                    |
 | building_name | string     |                                |
-| phone_number  | integer    | null: false                    |
+| phone_number  | string     | null: false                    |
 | order         | references | null: false, foreign_key: true |
 
 ### Association
