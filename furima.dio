@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="-Y2YIdNL05gLJzEmjBGh" name="ページ1">
-        <mxGraphModel dx="590" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+        <mxGraphModel dx="890" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -46,7 +46,7 @@
                 <mxCell id="19" value="postal_code (string型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="18" vertex="1">
                     <mxGeometry y="26" width="250" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="prefecture (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                <mxCell id="20" value="prefecture_id (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="18" vertex="1">
                     <mxGeometry y="46" width="250" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="79" value="city (string型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;" parent="18" vertex="1">
@@ -73,19 +73,19 @@
                 <mxCell id="24" value="description (text型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;shadow=1;spacingTop=-3;" parent="22" vertex="1">
                     <mxGeometry y="46" width="245" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="category (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" parent="22" vertex="1">
+                <mxCell id="72" value="category_id (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" parent="22" vertex="1">
                     <mxGeometry y="66" width="245" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="condition (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;spacingBottom=0;" parent="22" vertex="1">
+                <mxCell id="25" value="condition_id (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;spacingBottom=0;" parent="22" vertex="1">
                     <mxGeometry y="86" width="245" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="shiping_fee (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingBottom=0;spacingTop=-3;" parent="22" vertex="1">
+                <mxCell id="74" value="shiping_fee_id (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingBottom=0;spacingTop=-3;" parent="22" vertex="1">
                     <mxGeometry y="106" width="245" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="shiping_days (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" parent="22" vertex="1">
+                <mxCell id="73" value="shiping_days_id (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" parent="22" vertex="1">
                     <mxGeometry y="126" width="245" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="127" value="prefecture (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" vertex="1" parent="22">
+                <mxCell id="127" value="prefecture_id (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;spacingTop=-3;" parent="22" vertex="1">
                     <mxGeometry y="146" width="245" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="price (integer型, NOT NULL)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;spacingTop=-3;" parent="22" vertex="1">
