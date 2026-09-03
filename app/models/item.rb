@@ -9,20 +9,19 @@ class Item < ApplicationRecord
   belongs_to :shipping_day
 
   with_options presence: true do
+    validates :image
     validates :item_name
     validates :description
     validates :category_id
-    validates :condition
+    validates :condition_id
     validates :shipping_fee_id
-    validates :prefecture
+    validates :prefecture_id
     validates :shipping_day_id
-    validates :price, numericality: { only_integer: true, message: 'Half-width number' }
-    validates :price,
-              numericality: { greater_than_or_equal_to: 300, less_than_or_equal_to: 9_999_999,
-                              message: 'is out of setting range' }
+    validates :price, numericality: { only_integer: true, greater_than_or_equal_to: 300, less_than_or_equal_to: 9_999_999,
+                                      message: 'is invalid' }
   end
 
-  with_options numericality: { other_than: 1 } do
+  with_options numericality: { other_than: 0 } do
     validates :category_id
     validates :condition_id
     validates :shipping_fee_id
